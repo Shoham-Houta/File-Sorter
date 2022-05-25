@@ -1,4 +1,2 @@
 # File-Sorter
-# File-Sorter
-# File-Sorter
-# File-Sorter
+Automation of file sorting from Downloads folder
