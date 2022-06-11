@@ -27,9 +27,9 @@ if __name__ == '__main__':
                         shutil.move(entry.path, img_dest)
                     if ".pdf" in entry.name:
                         shutil.move(entry.path, pdf_dest)
-                    # entry.name:
-                    if ".zip" in entry.name and os.path.exists(os.path.dirname(entry.path)):
-                        os.remove(f"{entry.path}")
+                    
+                    if ".pttx" in entry.name :
+                        os.move(entry.path,presention_dest)
 
     except KeyboardInterrupt:
         observer.stop()
